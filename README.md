@@ -13,7 +13,7 @@ As part of a team that does analysis for the banking industry, this project seek
 
 This dataset consist of 1000 records of individuals with 9 features + target.  
 
-Features:  
+**Features**:  
 
 1. Age | Age of clients | Integer | Years  
 2. Sex | Gender of clients | String | Days  
@@ -26,7 +26,7 @@ Features:
 9. Purpose | Purpose for clients | String | Car / Furniture/Equipment / Radio/TV / Domestic Appliances / Repairs / Education / Business / Vacation/Others  
 10. Risk | Target Variable | String | Binary: Good / Bad
 
-Data Source: https://www.kaggle.com/uciml/german-credit  
+**Data Source**: https://www.kaggle.com/uciml/german-credit  
 
 
 ## Objectives: 
@@ -38,7 +38,7 @@ Data Source: https://www.kaggle.com/uciml/german-credit
 
 ## Conclusion  
 
-Objectives:  
+**Objectives**:  
 
 1) Determine the client profile of those with good and bad risk.  
 
@@ -62,7 +62,7 @@ Objectives:
 
 
 2) Create a model that would be able to predict whether a client is a good or bad risk.  
-- XGBoost is the best model out of all for the prediction of cardiovascular disease.  
+- **XGBoost** is the best model out of all for the prediction of cardiovascular disease.  
 
     - **Recall** is our more important metric since we wanted to focus more on being able to detect bad risks. XGBoost had the best at 0.37  
     - Has an **accuracy** of 0.72  
